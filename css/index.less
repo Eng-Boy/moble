@@ -1,0 +1,78 @@
+// 首页的样式文件\\
+// 导入设置屏幕尺寸
+@import "common";
+// 默认字体大小
+@tastFont:50;
+// body
+body{
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+}
+// serch-content
+.serch-content{
+    display: flex;
+    width: 15rem;
+    height: 80rem/@tastFont;
+    background: #ffc001;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    .clssify{
+        text-align: center;
+        height: 70rem/@tastFont;
+        line-height:  70rem/@tastFont;
+        width: 80rem/@tastFont;
+        margin: 0 5rem/@tastFont;
+        font-size: 25rem/@tastFont;
+        color: #fff;
+    }
+    .search{
+        flex:1;
+        input{
+            border: 0;
+            height: 70rem/@tastFont;
+            border-radius: 30rem/@tastFont;
+            background: #fff2cc;
+            margin-top:5rem/@tastFont;
+            color: #666666;
+        }
+    }
+    .login{
+        text-align: center;
+        height: 70rem/@tastFont;
+        line-height:  70rem/@tastFont;
+        width: 80rem/@tastFont;
+        margin: 0 5rem/@tastFont;
+        font-size: 25rem/@tastFont;
+        color: #fff;
+    }
+}
+.banner{
+    height: 368rem/@tastFont;
+    width: 750rem/@tastFont;
+    background: purple;
+}
+.ad{
+    display: flex;
+    a{
+        flex: 1;
+        background: pink;
+        margin: 0 1rem/@tastFont;
+        height: 100rem/@tastFont;
+        border:#000 solid 5rem/@tastFont;
+    }
+}
+.nev{
+    width: 750rem/@tastFont;
+    a{
+        float: left;
+        height:150rem/@tastFont;
+        width:140rem/@tastFont;
+        
+    }
+}
